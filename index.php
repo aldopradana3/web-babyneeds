@@ -36,7 +36,7 @@
             </a>
         </div>
         <div class="gambar3">
-            <a href="<?php echo "kategori.php?kategori=babybathtub" ?>">
+            <a href="<?php echo "kategori.php?kategori=babybathub" ?>">
             <img src="resource/baby bathtub.png" alt="" style="width: 190px;">
             <h2 style="padding-top: 20px;">Baby Bathtub</h2>
             </a>

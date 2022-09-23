@@ -83,7 +83,7 @@
             <?php } ?>
             </div>
             <div class="isi">
-            <?php if( $_GET['kategori'] == 'babybathtub'){ ?>
+            <?php if( $_GET['kategori'] == 'babybathub'){ ?>
             <a href="<?php echo "kategori.php?kategori=babybathtub&umur=0.5" ?>"><p style="color: black;">0 - 06 bulan</p></a>
             <a href="<?php echo "kategori.php?kategori=babybathtub&umur=1" ?>"><p style="color: black;">06 - 12 bulan</p></a>
             <a href="<?php echo "kategori.php?kategori=babybathtub&umur=1.5" ?>"><p style="color: black;">01 - 1,5 tahun</p></a>
