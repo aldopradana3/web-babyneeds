@@ -84,12 +84,12 @@
             </div>
             <div class="isi">
             <?php if( $_GET['kategori'] == 'babybathub'){ ?>
-            <a href="<?php echo "kategori.php?kategori=babybathtub&umur=0.5" ?>"><p style="color: black;">0 - 06 bulan</p></a>
-            <a href="<?php echo "kategori.php?kategori=babybathtub&umur=1" ?>"><p style="color: black;">06 - 12 bulan</p></a>
-            <a href="<?php echo "kategori.php?kategori=babybathtub&umur=1.5" ?>"><p style="color: black;">01 - 1,5 tahun</p></a>
-            <a href="<?php echo "kategori.php?kategori=babybathtub&umur=2" ?>"><p style="color: black;">1,5 - 02 tahun</p></a>
-            <a href="<?php echo "kategori.php?kategori=babybathtub&umur=3" ?>"><p style="color: black;">02 - 03 tahun</p></a>
-            <a href="<?php echo "kategori.php?kategori=babybathtub&umur=4" ?>"><p style="color: black;">03 - 04 tahun</p></a>
+            <a href="<?php echo "kategori.php?kategori=babybathub&umur=0.5" ?>"><p style="color: black;">0 - 06 bulan</p></a>
+            <a href="<?php echo "kategori.php?kategori=babybathub&umur=1" ?>"><p style="color: black;">06 - 12 bulan</p></a>
+            <a href="<?php echo "kategori.php?kategori=babybathub&umur=1.5" ?>"><p style="color: black;">01 - 1,5 tahun</p></a>
+            <a href="<?php echo "kategori.php?kategori=babybathub&umur=2" ?>"><p style="color: black;">1,5 - 02 tahun</p></a>
+            <a href="<?php echo "kategori.php?kategori=babybathub&umur=3" ?>"><p style="color: black;">02 - 03 tahun</p></a>
+            <a href="<?php echo "kategori.php?kategori=babybathub&umur=4" ?>"><p style="color: black;">03 - 04 tahun</p></a>
             <?php } ?>
             </div>
             <div class="isi">
