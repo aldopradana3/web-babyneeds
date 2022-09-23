@@ -1,0 +1,144 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f6c1bc;
+  font-family: Sans-serif;
+}
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #ffffff;
+  height: 10%;
+}
+.gambar_sewa {
+  background: #ffe9cf;
+}
+.kategori {
+  display: grid;
+  grid-template-columns: repeat(12, 30px);
+  grid-gap: 50px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.gambar1 {
+  grid-column: 1/3;
+}
+.gambar1 h2 {
+  text-align: center;
+  align-self: center;
+  width: 190px;
+  background: black;
+  color: white;
+  height: 50px;
+}
+.gambar2 {
+  grid-column: 4/6;
+}
+.gambar2 h2 {
+  text-align: center;
+  align-self: center;
+  width: 190px;
+  background: black;
+  color: white;
+  height: 50px;
+}
+.gambar3 {
+  grid-column: 7/9;
+}
+.gambar3 h2 {
+  text-align: center;
+  align-self: center;
+  width: 190px;
+  background: black;
+  color: white;
+  height: 50px;
+}
+.gambar4 {
+  grid-column: 10/12;
+}
+.gambar4 h2 {
+  text-align: center;
+  align-self: center;
+  width: 190px;
+  background: black;
+  color: white;
+  height: 50px;
+}
+.gambar5 {
+  grid-column: 4/6;
+}
+.gambar5 h2 {
+  text-align: center;
+  align-self: center;
+  width: 190px;
+  background: black;
+  color: white;
+  height: 50px;
+}
+.gambar6 {
+  grid-column: 7/9;
+}
+.gambar6 h2 {
+  text-align: center;
+  align-self: center;
+  width: 190px;
+  background: black;
+  color: white;
+  height: 50px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 60px;
+}
+
+.questions-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.question button {
+  width: 100%;
+  background-color: #f6c1bc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin: 0;
+}
+
+.question p {
+  font-size: 22px;
+  max-height: 0;
+  opacity: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  transition: all 0.6s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.question p.show {
+  max-height: 200px;
+  opacity: 1;
+  padding: 0px 15px 30px 15px;
+  margin-top: 20px;
+}

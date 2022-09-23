@@ -1,0 +1,112 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #f6c1bc;
+  font-family: Sans-serif;
+}
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  background-color: #ffffff;
+  height: 10%;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  position: sticky;
+  line-height: 60px;
+  top: 0;
+  z-index: 1;
+}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0px 19px 0px 19px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+li:hover,
+li:focus-within {
+  background: #ffe9cf;
+  cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 5rem;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+.buttonlogout {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+.button5 a {
+  color: black;
+  transition-duration: 0.4s;
+}
+.button5 a:hover {
+  background-color: #555555;
+  color: white;
+}
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
